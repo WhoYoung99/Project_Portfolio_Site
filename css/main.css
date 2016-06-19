@@ -1,0 +1,158 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Cardo', serif;
+}
+
+.header {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header__inner {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    width: 30%;
+    max-width: 100px;
+}
+
+.header__title {
+    width: 100%;
+    text-align: right;
+    font-weight: 300;
+    margin: 10px;
+}
+
+hr.style-vanish {
+    border: 0;
+    height: 1px;
+    max-width: 1200px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*
+ *
+ * Top Level Navigation
+ *
+ */
+
+.nav {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #616161;
+  padding: 1.5em;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #212121;
+}
+
+/*
+ *
+ * Main body
+ *
+ */
+
+.main section {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26);
+    width: 100%;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ *
+ * Center
+ *
+ */
+
+.center__cover {
+    background-image: url("../images/main_cover2.jpg");
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.center__cover article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+  color: #fff;
+  padding: 1em;
+}
+
+/*
+ *
+ * Project done
+ *
+ */
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project h1 {
+    width: 100%;
+    margin: 0px;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.project__inner a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #616161;
+    padding: 1em;
+}
+.project__inner a:before {
+  content: "» ";
+}
+
+.project__inner {
+    width: calc((100% - 20px)/3);
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.project__inner:last-of-type {
+    margin-right: 0px;
+}
