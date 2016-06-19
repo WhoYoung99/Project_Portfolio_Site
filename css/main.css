@@ -32,6 +32,8 @@ body, html {
 }
 
 hr.style-vanish {
+    margin: 0px;
+    margin-top: 20px;
     border: 0;
     height: 1px;
     max-width: 1200px;
@@ -106,14 +108,15 @@ hr.style-vanish {
 }
 
 .center__cover article {
-  box-sizing: border-box;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  bottom: 0;
-  height: 30%;
-  color: #fff;
-  padding: 1em;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    height: 30%;
+    color: #fff;
+    padding: 1em;
 }
 
 /*
@@ -137,16 +140,6 @@ hr.style-vanish {
     text-transform: uppercase;
 }
 
-.project__inner a {
-    font-size: 0.8em;
-    text-decoration: none;
-    color: #616161;
-    padding: 1em;
-}
-.project__inner a:before {
-  content: "» ";
-}
-
 .project__inner {
     width: calc((100% - 20px)/3);
     margin-right: 10px;
@@ -155,4 +148,19 @@ hr.style-vanish {
 
 .project__inner:last-of-type {
     margin-right: 0px;
+}
+
+.project__inner p {
+    text-align: center;
+}
+
+.project__inner a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #616161;
+    padding: 1em;
+}
+
+.project__inner a:before {
+  content: "» ";
 }
