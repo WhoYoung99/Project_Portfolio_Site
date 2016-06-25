@@ -130,7 +130,7 @@ hr.style-vanish {
 
 .project h1 {
     width: 100%;
-    margin: 0px;
+    margin: 0;
     margin-top: 1em;
     margin-bottom: 0.3em;
     font-size: 1.5em;
@@ -144,7 +144,7 @@ hr.style-vanish {
 }
 
 .project__inner:last-of-type {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .project__inner p {
