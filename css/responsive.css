@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     display: block;
 }
 
@@ -11,8 +12,6 @@ html, body {
 
     .header__logo {
         margin-top: 15px;
-        width: 80px;
-        height: 80px;
     }
 
     .main section {
@@ -38,8 +37,6 @@ html, body {
     }
 
     .header__logo {
-        width: 60px;
-        height: 60px;
         margin: 0px;
     }
 

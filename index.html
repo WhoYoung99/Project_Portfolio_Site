@@ -12,71 +12,74 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-    <header class="header">
-        <div class="header__inner">
-            <img class="header__logo" src="images/hodor_logo.jpg" data-toggle="modal"
-                    data-target="#myModal" alt="Logo">
-            <div class="header__inner">
-                <h1 class="header__title">Yang Hu | Portfolio</h1>
-                <h4 class="header__title">Full-Stack Nanodegree </h4>
+    <div class="container">
+        <header class="header">
+            <div class="row">
+                <div class="col-xs-2">
+                    <img class="img-responsive" src="images/hodor_logo.jpg" data-toggle="modal"
+                        data-target="#myModal" alt="Logo">
+                </div>
+                <div class="col-md-10">
+                    <h1 class="header__title">Yang Hu | Portfolio</h1>
+                    <h4 class="header__title">Full-Stack Nanodegree </h4>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="myModalLabel">Hey Bro, hold the door.</h4>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Kudos!</button>
-                        <!-- button type="button" class="btn btn-primary">Save changes</button -->
+        <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Hey Bro, hold the door.</h4>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Kudos!</button>
+                            <!-- button type="button" class="btn btn-primary">Save changes</button -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    <hr class="style-vanish">
+        <hr class="style-vanish row">
 
-    <nav class="nav">
-        <ul class="nav__list">
-        <li class="nav__item"><a href="#">Home</a></li>
-        <li class="nav__item"><a href="#">Project</a></li>
-        <li class="nav__item"><a href="#">Blog</a></li>
-        <li class="nav__item"><a href="https://github.com/WhoYoung99/MOOCs-Certification">Resume</a></li>
-        </ul>
-    </nav>
+        <nav class="nav container">
+            <ul class="nav__list row">
+            <li class="nav__item col-md-3"><a href="#">Home</a></li>
+            <li class="nav__item col-md-3"><a href="#">Project</a></li>
+            <li class="nav__item col-md-3"><a href="#">Blog</a></li>
+            <li class="nav__item col-md-3"><a href="https://github.com/WhoYoung99/MOOCs-Certification">Resume</a></li>
+            </ul>
+        </nav>
 
-    <section class="main">
-        <section class="center__cover">
-            <article class="center__cover">
-                <h4>I'm a student currently working on Udacity's Full-Stack Web Dev Nanodegree!</h4>
-                <p>So far I'v learn how to use version control, handle backend SQL server, and now
-                    I'm working on building a responsive web site.</p>
-            </article>
+        <section class="main container">
+            <section class="center__cover row">
+                <article class="center__cover">
+                    <h4>I'm a student currently working on Udacity's Full-Stack Web Dev Nanodegree!</h4>
+                    <p>So far I'v learn how to use version control, handle backend SQL server, and now
+                        I'm working on building a responsive web site.</p>
+                </article>
+            </section>
+
+            <section class="project">
+                <h1 class="project">Project</h1>
+                <div class="project__inner">
+                    <img class="project" src="images/lannister-family-game-of-thrones.jpg">
+                    <p>Swiss Tournament<br>
+                    <a href="https://github.com/WhoYoung99/Project_Swiss_Tournament">Github Link</a></p>
+                </div>
+                <div class="project__inner">
+                    <img class="project" src="images/stark-family-game-of-thrones.jpg">
+                    <p>Git Leaning Reflection<br>
+                    <a href="https://github.com/WhoYoung99/GitLearingReflection">Github Link</a></p>
+                </div>
+                <div class="project__inner">
+                    <img class="project" src="images/targaryen-family-game-of-thrones.jpg">
+                    <p>MNIST Deep Learning<br>
+                    <a href="https://github.com/WhoYoung99/MNIST_Digit_Recognition">Github Link</a></p>
+                </div>
+            </section>
         </section>
-
-        <section class="project">
-            <h1 class="project">Project</h1>
-            <div class="project__inner">
-                <img class="project" src="images/lannister-family-game-of-thrones.jpg">
-                <p>Swiss Tournament<br>
-                <a href="https://github.com/WhoYoung99/Project_Swiss_Tournament">Github Link</a></p>
-            </div>
-            <div class="project__inner">
-                <img class="project" src="images/stark-family-game-of-thrones.jpg">
-                <p>Git Leaning Reflection<br>
-                <a href="https://github.com/WhoYoung99/GitLearingReflection">Github Link</a></p>
-            </div>
-            <div class="project__inner">
-                <img class="project" src="images/targaryen-family-game-of-thrones.jpg">
-                <p>MNIST Deep Learning<br>
-                <a href="https://github.com/WhoYoung99/MNIST_Digit_Recognition">Github Link</a></p>
-            </div>
-        </section>
-    </section>
+    </div>
 </body>
 </html>
